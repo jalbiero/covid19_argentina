@@ -1,9 +1,9 @@
 function plot_data(x, y, h, fig, sTitle, sXlabel, sYlabel)
-    # PLOT_DATA 
-    #   plot_data(x, y, h, fig, sTitle, sXlabel, sYlabel)
-    # 
-    # TODO This function requires several improvements, the plots are
-    #      not good enough
+    % PLOT_DATA 
+    %   plot_data(x, y, h, fig, sTitle, sXlabel, sYlabel)
+    % 
+    % TODO This function requires several improvements, the plots are
+    %      not good enough
     
     xlabel(sXlabel);
     ylabel(sYlabel);
