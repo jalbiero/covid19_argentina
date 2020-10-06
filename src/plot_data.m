@@ -15,3 +15,5 @@ function plot_data(x, y, h, fig, sTitle, sXlabel, sYlabel)
     hold on;
     plot(h);
 end
+
+% This type of comment fixes github-linguist language detection for matlab/octave files

@@ -5,3 +5,5 @@ function val = mse(y, h)
     m = size(y, 1);
     val = sum((y - h) .^ 2) / m;
 end
+
+% This type of comment fixes github-linguist language detection for matlab/octave files

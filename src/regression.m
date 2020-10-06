@@ -6,3 +6,4 @@ function h = regression(days, y, model)
     h = X * theta; 
 end
 
+% This type of comment fixes github-linguist language detection for matlab/octave files

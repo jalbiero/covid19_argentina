@@ -58,3 +58,5 @@ function X = deaths_model(days)
        X(:, i + 1) = days .^ i;
     end
 end
+
+% This type of comment fixes github-linguist language detection for matlab/octave files
