@@ -50,7 +50,14 @@ end
 function X = deaths_model(days)
     % Adjust this degree using the MSE estimator to get the best fit
     % (smaller the MSE, the better)
-    polynomial_degree = 4; 
+    %
+    % WARNING: 
+    % Due to the gap introduced on 2020/10/01 (*) the model is no longer 
+    % accurate. (*) That day were added more than 3000 deaths that were
+    % missing in the stats. They belong to previous days/months.
+    %
+    % Greater degrees will fit better, but the model will suffer from overfit
+    polynomial_degree = 6; 
     
     X = zeros(size(days, 1), polynomial_degree + 1);
     
