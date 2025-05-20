@@ -1,3 +1,6 @@
+Repository archived, new location: https://codeberg.org/jalbiero/covid19_argentina
+---
+
 # Covid19 in Argentina
 
 Regression estimation for Contagions/Deaths in Argentina
