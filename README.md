@@ -1,4 +1,4 @@
-Repository archived, new location: https://codeberg.org/jalbiero/covid19_argentina
+Archived repository, new location: https://codeberg.org/jalbiero/covid19_argentina
 ---
 
 # Covid19 in Argentina
